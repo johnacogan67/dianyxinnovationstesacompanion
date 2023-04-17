@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26AC9EA129ED71C700495A10 /* DianyxInnovationsTESA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC9EA029ED71C700495A10 /* DianyxInnovationsTESA.swift */; };
+		26AC9EA529ED71C800495A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AC9EA429ED71C800495A10 /* Assets.xcassets */; };
+		26AC9EA829ED71C800495A10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AC9EA729ED71C800495A10 /* Preview Assets.xcassets */; };
+		26AC9EB229ED71C900495A10 /* DianyxInnovationsTESATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC9EB129ED71C900495A10 /* DianyxInnovationsTESATests.swift */; };
+		26AC9EBC29ED71C900495A10 /* DianyxInnovationsTESAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC9EBB29ED71C900495A10 /* DianyxInnovationsTESAUITests.swift */; };
+		26AC9EBE29ED71C900495A10 /* DianyxInnovationsTESAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC9EBD29ED71C900495A10 /* DianyxInnovationsTESAUITestsLaunchTests.swift */; };
+		26AC9ED029ED80E900495A10 /* TCSensors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC9ECD29ED80E900495A10 /* TCSensors.swift */; };
+		26AC9ED529ED81AA00495A10 /* BLEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC9ED429ED81AA00495A10 /* BLEController.swift */; };
+		26AC9ED729ED81AF00495A10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC9ED629ED81AF00495A10 /* ContentView.swift */; };
+		26AC9ED929ED81C900495A10 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC9ED829ED81C900495A10 /* CustomViews.swift */; };
+		26AC9EDD29ED825300495A10 /* SensorsConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC9EDC29ED825300495A10 /* SensorsConnectionView.swift */; };
+		26AC9EE129ED827000495A10 /* SensorsDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC9EE029ED827000495A10 /* SensorsDataView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26AC9EAE29ED71C900495A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26AC9E9529ED71C700495A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26AC9E9C29ED71C700495A10;
+			remoteInfo = DianyxInnovationsTESA;
+		};
+		26AC9EB829ED71C900495A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26AC9E9529ED71C700495A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26AC9E9C29ED71C700495A10;
+			remoteInfo = DianyxInnovationsTESA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26AC9E9D29ED71C700495A10 /* DianyxInnovationsTESA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DianyxInnovationsTESA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AC9EA029ED71C700495A10 /* DianyxInnovationsTESA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DianyxInnovationsTESA.swift; sourceTree = "<group>"; };
+		26AC9EA429ED71C800495A10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26AC9EA729ED71C800495A10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26AC9EAD29ED71C900495A10 /* DianyxInnovationsTESATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DianyxInnovationsTESATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AC9EB129ED71C900495A10 /* DianyxInnovationsTESATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DianyxInnovationsTESATests.swift; sourceTree = "<group>"; };
+		26AC9EB729ED71C900495A10 /* DianyxInnovationsTESAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DianyxInnovationsTESAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AC9EBB29ED71C900495A10 /* DianyxInnovationsTESAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DianyxInnovationsTESAUITests.swift; sourceTree = "<group>"; };
+		26AC9EBD29ED71C900495A10 /* DianyxInnovationsTESAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DianyxInnovationsTESAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26AC9ECD29ED80E900495A10 /* TCSensors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TCSensors.swift; path = "../../../Library/CloudStorage/GoogleDrive-johnacogan67@gmail.com/My Drive/documents/TCSensors.swift"; sourceTree = "<group>"; };
+		26AC9ED429ED81AA00495A10 /* BLEController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEController.swift; sourceTree = "<group>"; };
+		26AC9ED629ED81AF00495A10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26AC9ED829ED81C900495A10 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		26AC9EDC29ED825300495A10 /* SensorsConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsConnectionView.swift; sourceTree = "<group>"; };
+		26AC9EE029ED827000495A10 /* SensorsDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsDataView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26AC9E9A29ED71C700495A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AC9EAA29ED71C900495A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AC9EB429ED71C900495A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26AC9E9429ED71C700495A10 = {
+			isa = PBXGroup;
+			children = (
+				26AC9E9F29ED71C700495A10 /* DianyxInnovationsTESA */,
+				26AC9EB029ED71C900495A10 /* DianyxInnovationsTESATests */,
+				26AC9EBA29ED71C900495A10 /* DianyxInnovationsTESAUITests */,
+				26AC9E9E29ED71C700495A10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26AC9E9E29ED71C700495A10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26AC9E9D29ED71C700495A10 /* DianyxInnovationsTESA.app */,
+				26AC9EAD29ED71C900495A10 /* DianyxInnovationsTESATests.xctest */,
+				26AC9EB729ED71C900495A10 /* DianyxInnovationsTESAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26AC9E9F29ED71C700495A10 /* DianyxInnovationsTESA */ = {
+			isa = PBXGroup;
+			children = (
+				26AC9EA029ED71C700495A10 /* DianyxInnovationsTESA.swift */,
+				26AC9ED129ED810400495A10 /* Views */,
+				26AC9ECD29ED80E900495A10 /* TCSensors.swift */,
+				26AC9ED429ED81AA00495A10 /* BLEController.swift */,
+				26AC9EA429ED71C800495A10 /* Assets.xcassets */,
+				26AC9EA629ED71C800495A10 /* Preview Content */,
+			);
+			path = DianyxInnovationsTESA;
+			sourceTree = "<group>";
+		};
+		26AC9EA629ED71C800495A10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26AC9EA729ED71C800495A10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26AC9EB029ED71C900495A10 /* DianyxInnovationsTESATests */ = {
+			isa = PBXGroup;
+			children = (
+				26AC9EB129ED71C900495A10 /* DianyxInnovationsTESATests.swift */,
+			);
+			path = DianyxInnovationsTESATests;
+			sourceTree = "<group>";
+		};
+		26AC9EBA29ED71C900495A10 /* DianyxInnovationsTESAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26AC9EBB29ED71C900495A10 /* DianyxInnovationsTESAUITests.swift */,
+				26AC9EBD29ED71C900495A10 /* DianyxInnovationsTESAUITestsLaunchTests.swift */,
+			);
+			path = DianyxInnovationsTESAUITests;
+			sourceTree = "<group>";
+		};
+		26AC9ED129ED810400495A10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26AC9ED629ED81AF00495A10 /* ContentView.swift */,
+				26AC9EE029ED827000495A10 /* SensorsDataView.swift */,
+				26AC9EDC29ED825300495A10 /* SensorsConnectionView.swift */,
+				26AC9ED829ED81C900495A10 /* CustomViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26AC9E9C29ED71C700495A10 /* DianyxInnovationsTESA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26AC9EC129ED71C900495A10 /* Build configuration list for PBXNativeTarget "DianyxInnovationsTESA" */;
+			buildPhases = (
+				26AC9E9929ED71C700495A10 /* Sources */,
+				26AC9E9A29ED71C700495A10 /* Frameworks */,
+				26AC9E9B29ED71C700495A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DianyxInnovationsTESA;
+			productName = DianyxInnovationsTESA;
+			productReference = 26AC9E9D29ED71C700495A10 /* DianyxInnovationsTESA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26AC9EAC29ED71C900495A10 /* DianyxInnovationsTESATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26AC9EC429ED71C900495A10 /* Build configuration list for PBXNativeTarget "DianyxInnovationsTESATests" */;
+			buildPhases = (
+				26AC9EA929ED71C900495A10 /* Sources */,
+				26AC9EAA29ED71C900495A10 /* Frameworks */,
+				26AC9EAB29ED71C900495A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26AC9EAF29ED71C900495A10 /* PBXTargetDependency */,
+			);
+			name = DianyxInnovationsTESATests;
+			productName = DianyxInnovationsTESATests;
+			productReference = 26AC9EAD29ED71C900495A10 /* DianyxInnovationsTESATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26AC9EB629ED71C900495A10 /* DianyxInnovationsTESAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26AC9EC729ED71C900495A10 /* Build configuration list for PBXNativeTarget "DianyxInnovationsTESAUITests" */;
+			buildPhases = (
+				26AC9EB329ED71C900495A10 /* Sources */,
+				26AC9EB429ED71C900495A10 /* Frameworks */,
+				26AC9EB529ED71C900495A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26AC9EB929ED71C900495A10 /* PBXTargetDependency */,
+			);
+			name = DianyxInnovationsTESAUITests;
+			productName = DianyxInnovationsTESAUITests;
+			productReference = 26AC9EB729ED71C900495A10 /* DianyxInnovationsTESAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26AC9E9529ED71C700495A10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					26AC9E9C29ED71C700495A10 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					26AC9EAC29ED71C900495A10 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 26AC9E9C29ED71C700495A10;
+					};
+					26AC9EB629ED71C900495A10 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 26AC9E9C29ED71C700495A10;
+					};
+				};
+			};
+			buildConfigurationList = 26AC9E9829ED71C700495A10 /* Build configuration list for PBXProject "DianyxInnovationsTESA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26AC9E9429ED71C700495A10;
+			productRefGroup = 26AC9E9E29ED71C700495A10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26AC9E9C29ED71C700495A10 /* DianyxInnovationsTESA */,
+				26AC9EAC29ED71C900495A10 /* DianyxInnovationsTESATests */,
+				26AC9EB629ED71C900495A10 /* DianyxInnovationsTESAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26AC9E9B29ED71C700495A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AC9EA829ED71C800495A10 /* Preview Assets.xcassets in Resources */,
+				26AC9EA529ED71C800495A10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AC9EAB29ED71C900495A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AC9EB529ED71C900495A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26AC9E9929ED71C700495A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AC9ED929ED81C900495A10 /* CustomViews.swift in Sources */,
+				26AC9EE129ED827000495A10 /* SensorsDataView.swift in Sources */,
+				26AC9ED029ED80E900495A10 /* TCSensors.swift in Sources */,
+				26AC9ED529ED81AA00495A10 /* BLEController.swift in Sources */,
+				26AC9ED729ED81AF00495A10 /* ContentView.swift in Sources */,
+				26AC9EA129ED71C700495A10 /* DianyxInnovationsTESA.swift in Sources */,
+				26AC9EDD29ED825300495A10 /* SensorsConnectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AC9EA929ED71C900495A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AC9EB229ED71C900495A10 /* DianyxInnovationsTESATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AC9EB329ED71C900495A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AC9EBC29ED71C900495A10 /* DianyxInnovationsTESAUITests.swift in Sources */,
+				26AC9EBE29ED71C900495A10 /* DianyxInnovationsTESAUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26AC9EAF29ED71C900495A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26AC9E9C29ED71C700495A10 /* DianyxInnovationsTESA */;
+			targetProxy = 26AC9EAE29ED71C900495A10 /* PBXContainerItemProxy */;
+		};
+		26AC9EB929ED71C900495A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26AC9E9C29ED71C700495A10 /* DianyxInnovationsTESA */;
+			targetProxy = 26AC9EB829ED71C900495A10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26AC9EBF29ED71C900495A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26AC9EC029ED71C900495A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26AC9EC229ED71C900495A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DianyxInnovationsTESA/Preview Content\"";
+				DEVELOPMENT_TEAM = THKF822TTP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianyxinnovations.tesa.DianyxInnovationsTESA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26AC9EC329ED71C900495A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DianyxInnovationsTESA/Preview Content\"";
+				DEVELOPMENT_TEAM = THKF822TTP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianyxinnovations.tesa.DianyxInnovationsTESA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26AC9EC529ED71C900495A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THKF822TTP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianyxinnovations.tesa.DianyxInnovationsTESATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DianyxInnovationsTESA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DianyxInnovationsTESA";
+			};
+			name = Debug;
+		};
+		26AC9EC629ED71C900495A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THKF822TTP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianyxinnovations.tesa.DianyxInnovationsTESATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DianyxInnovationsTESA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DianyxInnovationsTESA";
+			};
+			name = Release;
+		};
+		26AC9EC829ED71C900495A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THKF822TTP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianyxinnovations.tesa.DianyxInnovationsTESAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DianyxInnovationsTESA;
+			};
+			name = Debug;
+		};
+		26AC9EC929ED71C900495A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THKF822TTP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianyxinnovations.tesa.DianyxInnovationsTESAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DianyxInnovationsTESA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26AC9E9829ED71C700495A10 /* Build configuration list for PBXProject "DianyxInnovationsTESA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AC9EBF29ED71C900495A10 /* Debug */,
+				26AC9EC029ED71C900495A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26AC9EC129ED71C900495A10 /* Build configuration list for PBXNativeTarget "DianyxInnovationsTESA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AC9EC229ED71C900495A10 /* Debug */,
+				26AC9EC329ED71C900495A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26AC9EC429ED71C900495A10 /* Build configuration list for PBXNativeTarget "DianyxInnovationsTESATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AC9EC529ED71C900495A10 /* Debug */,
+				26AC9EC629ED71C900495A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26AC9EC729ED71C900495A10 /* Build configuration list for PBXNativeTarget "DianyxInnovationsTESAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AC9EC829ED71C900495A10 /* Debug */,
+				26AC9EC929ED71C900495A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26AC9E9529ED71C700495A10 /* Project object */;
+}
